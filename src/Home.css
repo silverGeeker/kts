@@ -1,0 +1,26 @@
+.bgimg2{
+    background-image:url('resources/home.jpg');
+    background-size: 100% 100%;
+    background-attachment: fixed;
+    width: 1529px;
+    height: 670px;
+    margin-top: -100px;
+    margin-left: -215px;
+}
+
+.hearderset1{
+  box-sizing: border-box;
+   }
+
+.hdh{
+  font-size: 25px;
+  font-weight: bold;
+  color: rgba(206, 41, 91, 0.959);
+  padding-top: 3.8in;
+}
+
+.hdh2{
+  color: rgba(206, 41, 91, 0.959);
+  font-size: 50px;
+  margin-top: -0.7cm;
+}

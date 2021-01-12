@@ -1,0 +1,88 @@
+
+.bgimg1{
+    background-image:url('resources/about.jpg');
+    background-size: 100% 100%;
+    background-attachment: fixed;
+    width: 1529px;
+    height: 468px;
+    margin-top: -9px;
+    margin-left: -215px;
+}
+
+.hearderset{
+  padding-top: 50px;
+  box-sizing: border-box;
+   }
+
+.hd{
+  font-size: 52px;
+  font-weight: bold;
+  color: black;
+  text-align: center;
+}
+
+.hd2{
+  color: black;
+  text-align: center;
+  font-size:xx-large;
+  margin: auto;
+  font-weight: 500;
+}
+
+
+/* Clear floats after image containers */
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+  padding-top: 3cm;
+}
+
+.column2 {
+  width: 20%;
+  display: block;
+  float: right;
+  margin-left: 27cm;
+  margin-top: -7cm;
+}
+
+.column1 {
+  width: 80%;
+  display: block;
+  float: left;
+  padding-top: 2cm;
+  color:darkslategray;
+}
+
+.photoname
+{
+  text-align: center;
+}
+
+.column4 {
+  width: 20%;
+  display: block;
+  float: right;
+  
+}
+
+.column3 {
+  width: 80%;
+  display: block;
+  float: left;
+  color:darkslategray;
+}
+
+.cardCol {
+  padding: 1cm;
+  display: flex;
+}
+.card-deck {
+  display: flex;
+}
+
+.hd3 {
+  padding-top: 2cm;
+}
+
+

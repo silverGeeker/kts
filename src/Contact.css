@@ -1,0 +1,49 @@
+.bgimg{
+    background-image:url('resources/about.jpg');
+    background-size: 100% 100%;
+    background-attachment: fixed;
+    width: 1529px;
+    height: 268px;
+    margin-top: -9px;
+    margin-left: -215px;
+}
+
+.hearderset{
+  padding-top: 50px;
+  box-sizing: border-box;
+   }
+
+.hd{
+  font-size: 52px;
+  font-weight: bold;
+  color: black;
+  text-align: center;
+}
+
+.hd2{
+  color: black;
+  text-align: center;
+  font-size:xx-large;
+  margin: auto;
+  font-weight: 500;
+}
+
+.row::after {
+    content: "";
+    clear: both;
+    display: table;
+    padding-top: 3cm;
+  }
+
+  .form2 {
+    width: 50%;
+    display: block;
+    float: right;
+  }
+  
+  .form1 {
+    width: 50%;
+    display: block;
+    float: left;
+
+  }
