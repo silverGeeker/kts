@@ -12,7 +12,7 @@ const Home = () => (
         </div>
   </div>
 
-  <PointGrid className="pg" />
+  <PointGrid />
 
   </>
 );
