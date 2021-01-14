@@ -2,11 +2,10 @@
     background-image:url('resources/home.jpg');
     background-size: 100% 100%;
     background-attachment: fixed;
-    width: 100%;
+    width: 1529px;
     height: 670px;
-    margin-top: -8px;
-    /*margin-left: -215px;
-    margin-right: -215px;*/
+    margin-top: -9px;
+    margin-left: -215px;
 }
 
 .hearderset1{
