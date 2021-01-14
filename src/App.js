@@ -1,16 +1,17 @@
 import React from "react";
 import NavMenu from "./NavMenu";
-import Navbar from "./components/Navbar";
+import Navbar from "./components/Navbar/Navbar";
 import Home from "./Home";
 import About from "./About";
 import {Route,Switch, BrowserRouter as Router} from "react-router-dom";
 import Contact from "./Contact";
+import { FooterContainer} from "./containers/footer";
 
 
 const App = () => {
     return (
     <>
-    <NavMenu />
+    
     <Router>
      <Navbar />
      <div className="container mt-2" style={{ marginTop: 40 }}>
@@ -26,6 +27,7 @@ const App = () => {
           </Route>
         </Switch>
       </div>
+      <FooterContainer />
     </Router>
     </>
     );
