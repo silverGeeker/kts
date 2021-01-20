@@ -1,0 +1,17 @@
+{
+  "name": "backserver",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "start": "nodemon server.js"
+  },
+  "author": "Rajat Borde",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^8.2.0",
+    "mongoose": "^5.11.12",
+    "nodemon": "^2.0.7"
+  }
+}

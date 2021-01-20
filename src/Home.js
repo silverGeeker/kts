@@ -1,6 +1,6 @@
 import React from "react";
 import "./Home.css";
-import PointGrid from "./PointGrid";
+/*import PointGrid from "./PointGrid";*/
 
 const Home = () => (
   <>
@@ -12,7 +12,7 @@ const Home = () => (
         </div>
   </div>
 
-  <PointGrid />
+ {/* <PointGrid />*/}
 
   </>
 );

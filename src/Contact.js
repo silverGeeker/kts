@@ -32,11 +32,11 @@ const Contact = () => (
 
     <div>
     <BottomNavigationAction label="Nearby" value="nearby" icon={<LocationOnIcon />} />
-    LIG Square Indore <br />
+    125, Bhanwarkua Main Road, Near Gurjar Hospital Indore (M.P.) <br />
     <BottomNavigationAction label="Mail" value="mail" icon={<MailIcon />} />
     info.ktsolutions@gmail.com <br />
     <BottomNavigationAction label="Folder" value="folder" icon={<DialerSipIcon />} />
-    8830703529 / 9644460006
+    7879324781 / 9644460006
 
 
     </div>
@@ -44,6 +44,7 @@ const Contact = () => (
 </div>
 
   <div className="form2">
+  <form>
    <FormControl>
      <InputLabel htmlFor="my-input">Full Name</InputLabel>
      <Input className="inputName" id="my-input" aria-describedby="my-helper-text" />
@@ -73,6 +74,7 @@ const Contact = () => (
 
 
 <Button
+        type="submit"
         variant="contained"
         color="secondary"
         size="large"
@@ -84,7 +86,7 @@ const Contact = () => (
     <br/>
     <br/>
     <br/>
-
+</form>
 </div>
 </div>
 

@@ -16,9 +16,9 @@ export function FooterContainer() {
                 <Footer.Column>
                 <Footer.Title>Courses</Footer.Title>
                     <Footer.Link href="#">UPSC</Footer.Link>
-                    <Footer.Link href="#">JEE Mains</Footer.Link>
+                    <Footer.Link href="#">SSC</Footer.Link>
                     <Footer.Link href="#">Bank PO</Footer.Link>
-                    <Footer.Link href="#">GRE</Footer.Link>
+                    <Footer.Link href="#">Railway</Footer.Link>
                 </Footer.Column>
                 <Footer.Column>
                 <Footer.Title>Contact Us</Footer.Title>

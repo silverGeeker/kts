@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import {NavLink} from 'react-router-dom';
 import { MenuItems } from "./MenuItems"
-import { Button } from "../Button"
+/*import { Button } from "../Button"*/
 import './Navbar.css'
 
 class Navbar extends Component {
@@ -29,7 +29,8 @@ class Navbar extends Component {
                         )
                     })}
                 </ul>
-                <Button>WhatsApp</Button>
+                <button type="button" style={{padding: "8px 20px", borderRadius: "4px", outline: "none", border: "none", cursor: "pointer"}} 
+                className="btn btn-success"><h6>WhatsApp</h6></button>
             </nav>
         )
     }
