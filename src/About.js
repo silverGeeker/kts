@@ -1,11 +1,13 @@
 import React from "react";
 import "./About.css";
+
+{ /*
 import yb1 from "./resources/yb1.jpg";
 import kt1 from "./resources/kt1.png";
 import MediaCardRahul from "./MediaCardRahul.js";
 import MediaCardUpendra from "./MediaCardUpendra";
 import MediaCardDurgesh from "./MediaCardDurgesh";
-import MediaCardRohit from "./MediaCardRohit";
+import MediaCardRohit from "./MediaCardRohit";*/ }
 
 
 
@@ -17,7 +19,7 @@ const About = () => (
           <span className="hd2"><p><br/><br/>"A Dream Institute For <br /> Competitive Exams!"</p></span>
         </div>
   </div>
-  
+  {/*
   <br />
   <div className="row">
    <div className="column1">
@@ -81,7 +83,7 @@ const About = () => (
   </div>
   <br />
   <br />
-
+*/}
   </>
 );
 

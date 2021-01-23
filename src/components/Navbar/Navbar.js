@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import {NavLink} from 'react-router-dom';
-import { MenuItems } from "./MenuItems"
+import { MenuItems } from "./MenuItems";
+import gil from "../../resources/gil.png";
 /*import { Button } from "../Button"*/
 import './Navbar.css'
 
@@ -14,7 +15,12 @@ class Navbar extends Component {
     render() {
         return(
             <nav className="NavbarItems">
-                <h3 className="navbar-logo">Gravity Institute<i className="fab fa-react"></i></h3>
+                
+           
+          <img className=" ml-2" src={gil} alt="" style={{width:100, height:100}} />
+          <h3 style={{color:'white' }} >Gravity Institute</h3>
+        
+                
                 <div className="menu-icon" onClick={this.handleClick}>
                     <i className={this.state.clicked ? 'fas fa-times' : 'fas fa-bars'}></i>
                 </div>
@@ -29,8 +35,6 @@ class Navbar extends Component {
                         )
                     })}
                 </ul>
-                <button type="button" style={{padding: "8px 20px", borderRadius: "4px", outline: "none", border: "none", cursor: "pointer"}} 
-                className="btn btn-success"><h6>WhatsApp</h6></button>
             </nav>
         )
     }

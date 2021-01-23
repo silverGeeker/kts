@@ -15,7 +15,7 @@ const App = () => {
     
     <Router>
      <Navbar />
-     <div className="container mt-2" style={{ marginTop: 40 }}>
+     {/*<div className="container mt-2" style={{ marginTop: 40 }}>*/}
         <Switch>
           <Route exact path="/">
           <Home />
@@ -33,7 +33,7 @@ const App = () => {
             <Contact />
           </Route>
         </Switch>
-      </div>
+      {/*</div>*/}
       <FooterContainer />
     </Router>
     </>

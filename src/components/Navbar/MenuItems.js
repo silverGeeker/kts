@@ -20,7 +20,7 @@ export const MenuItems = [
         cName: 'nav-links'
     },
     {
-        title: 'WhatsApp',
+        title: 'Contact on WhatsApp',
         url: '/whatsapp',
         cName: 'nav-links-mobile'
     }
