@@ -1,13 +1,19 @@
 import React from "react";
 import "./About.css";
-
-{ /*
+ 
 import yb1 from "./resources/yb1.jpg";
 import kt1 from "./resources/kt1.png";
+import ut1 from "./resources/ut1.jpg";
+import rr2 from "./resources/rr2.jpg";
+import rr1 from "./resources/rr1.png";
+import ds1 from "./resources/ds1.jpg";
+
+/*
 import MediaCardRahul from "./MediaCardRahul.js";
 import MediaCardUpendra from "./MediaCardUpendra";
 import MediaCardDurgesh from "./MediaCardDurgesh";
-import MediaCardRohit from "./MediaCardRohit";*/ }
+import MediaCardRohit from "./MediaCardRohit";
+*/ 
 
 
 
@@ -19,6 +25,69 @@ const About = () => (
           <span className="hd2"><p><br/><br/>"A Dream Institute For <br /> Competitive Exams!"</p></span>
         </div>
   </div>
+  <section class="our-webcoderskull padding-lg">
+  <div class="container">
+    <div class="row heading heading-icon">
+        <h2>Our Team</h2>
+    </div>
+    <ul class="row">
+      <li class="col-12 col-md-6 col-lg-3">
+          <div class="cnt-block equal-hight" style={{height: "349px"}}>
+            <figure><img src={ds1} className="img-responsive" alt=""/></figure>
+            <h3><a href="http://www.webcoderskull.com/">Durgesh Shukla</a></h3>
+            <p>B.Tech (DCE Delhi)<br/>
+          Experience: 7 Years</p>
+            <ul class="follow-us clearfix">
+              <li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+              <li><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+              <li><a href="#"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
+            </ul>
+          </div>
+      </li>
+      <li class="col-12 col-md-6 col-lg-3">
+          <div class="cnt-block equal-hight" style={{height: "349px"}}>
+            <figure><img src={rr1} className="img-responsive" alt=""/></figure>
+            <h3><a href="#">Rahul Rajan</a></h3>
+            <p> MBA <br />
+          Experience: 9 Years</p>
+            <ul class="follow-us clearfix">
+              <li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+              <li><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+              <li><a href="#"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
+            </ul>
+          </div>
+      </li>
+      <li class="col-12 col-md-6 col-lg-3">
+          <div class="cnt-block equal-hight" style={{height: "349px"}}>
+            <figure><img src={rr2} className="img-responsive" alt=""/></figure>
+            <h3><a href="http://www.webcoderskull.com/">Rohit Rajan</a></h3>
+            <p>BE <br />
+          Experience: 7 Years</p>
+            <ul class="follow-us clearfix">
+              <li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+              <li><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+              <li><a href="#"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
+            </ul>
+          </div>
+       </li>
+      <li class="col-12 col-md-6 col-lg-3">
+          <div class="cnt-block equal-hight" style={{height: "349px"}}>
+            <figure><img src={ut1} className="img-responsive" alt=""/></figure>
+            <h3><a href="http://www.webcoderskull.com/">Upendra Tagare </a></h3>
+            <p>M.Tech (IIT Roorkee) <br />
+          Experience: 5 Years</p>
+            <ul class="follow-us clearfix">
+              <li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+              <li><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+              <li><a href="#"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
+            </ul>
+          </div>
+      </li>
+    </ul>
+  </div>
+</section>
+
+
   {/*
   <br />
   <div className="row">

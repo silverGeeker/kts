@@ -1,13 +1,15 @@
 import React from "react";
-import FormControl from '@material-ui/core/FormControl';
-import { BottomNavigationAction, FormHelperText, Input, InputLabel, TextField } from "@material-ui/core";
 import "./Contact.css";
+/*
 import Button from '@material-ui/core/Button';
 import SendIcon from '@material-ui/icons/Send';
 import MailIcon from '@material-ui/icons/Mail';
 import DialerSipIcon from '@material-ui/icons/DialerSip';
-
+import FormControl from '@material-ui/core/FormControl';
+import { BottomNavigationAction, FormHelperText, Input, InputLabel, TextField } from "@material-ui/core";
 import LocationOnIcon from '@material-ui/icons/LocationOn';
+*/
+import 'bootstrap/dist/css/bootstrap.min.css';
 
 
 
@@ -20,7 +22,52 @@ const Contact = () => (
         </div>
   </div>
 
+<div class="container contact">
+	<div class="row">
+		<div class="col-md-3">
+			<div class="contact-info">
+				<img src="https://image.ibb.co/kUASdV/contact-image.png" alt="image"/>
+				<h2>Contact Us</h2>
+				<h4>We would love to hear from you !</h4>
+			</div>
+		</div>
+		<div class="col-md-9">
+			<div class="contact-form">
+				<div class="form-group">
+				  <label class="control-label col-sm-2" for="fname">Full Name:</label>
+				  <div class="col-sm-10">          
+					<input type="text" class="form-control" id="fname" placeholder="Enter First Name" name="fname"/>
+				  </div>
+				</div>
+				<div class="form-group">
+				  <label class="control-label col-sm-2" for="subject">Subject:</label>
+				  <div class="col-sm-10">          
+					<input type="text" class="form-control" id="sublect" placeholder="Subject" name="subject"/>
+				  </div>
+				</div>
+				<div class="form-group">
+				  <label class="control-label col-sm-2" for="email">Email:</label>
+				  <div class="col-sm-10">
+					<input type="email" class="form-control" id="email" placeholder="Enter email" name="email"/>
+				  </div>
+				</div>
+				<div class="form-group">
+				  <label class="control-label col-sm-2" for="comment">Comment:</label>
+				  <div class="col-sm-10">
+					<textarea class="form-control" rows="5" id="comment"></textarea>
+				  </div>
+				</div>
+				<div class="form-group">        
+				  <div class="col-sm-offset-2 col-sm-10">
+					<button type="submit" class="btn btn-default">Submit</button>
+				  </div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
 
+{/*
 
   <br />
   <br />
@@ -90,7 +137,7 @@ const Contact = () => (
 </div>
 </div>
 
-
+*/}
 
   </>
 );
