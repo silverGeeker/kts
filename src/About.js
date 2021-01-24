@@ -34,7 +34,7 @@ const About = () => (
       <li class="col-12 col-md-6 col-lg-3">
           <div class="cnt-block equal-hight" style={{height: "349px"}}>
             <figure><img src={ds1} className="img-responsive" alt=""/></figure>
-            <h3><a href="http://www.webcoderskull.com/">Durgesh Shukla</a></h3>
+            <h3><a href="http://www.gravityindore.com/about">Durgesh Shukla</a></h3>
             <p>B.Tech (DCE Delhi)<br/>
           Experience: 7 Years</p>
             <ul class="follow-us clearfix">
@@ -47,7 +47,7 @@ const About = () => (
       <li class="col-12 col-md-6 col-lg-3">
           <div class="cnt-block equal-hight" style={{height: "349px"}}>
             <figure><img src={rr1} className="img-responsive" alt=""/></figure>
-            <h3><a href="#">Rahul Rajan</a></h3>
+            <h3><a href="http://www.gravityindore.com/about">Rahul Rajan</a></h3>
             <p> MBA <br />
           Experience: 9 Years</p>
             <ul class="follow-us clearfix">
@@ -60,7 +60,7 @@ const About = () => (
       <li class="col-12 col-md-6 col-lg-3">
           <div class="cnt-block equal-hight" style={{height: "349px"}}>
             <figure><img src={rr2} className="img-responsive" alt=""/></figure>
-            <h3><a href="http://www.webcoderskull.com/">Rohit Rajan</a></h3>
+            <h3><a href="http://www.gravityindore.com/about">Rohit Rajan</a></h3>
             <p>BE <br />
           Experience: 7 Years</p>
             <ul class="follow-us clearfix">
@@ -73,7 +73,7 @@ const About = () => (
       <li class="col-12 col-md-6 col-lg-3">
           <div class="cnt-block equal-hight" style={{height: "349px"}}>
             <figure><img src={ut1} className="img-responsive" alt=""/></figure>
-            <h3><a href="http://www.webcoderskull.com/">Upendra Tagare </a></h3>
+            <h3><a href="http://www.gravityindore.com/about">Upendra Tagare </a></h3>
             <p>M.Tech (IIT Roorkee) <br />
           Experience: 5 Years</p>
             <ul class="follow-us clearfix">
