@@ -19,10 +19,10 @@ export const MenuItems = [
         url: '/contact',
         cName: 'nav-links'
     },
-    {
-        title: 'Contact on WhatsApp',
-        url: '/whatsapp',
-        cName: 'nav-links-mobile'
-    }
+   // {
+     //   title: 'Contact on WhatsApp',
+       // url: '/whatsapp',
+        //cName: 'nav-links-mobile'
+    //}
 
 ]

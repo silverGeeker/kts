@@ -1,8 +1,8 @@
 .NavbarItems {
-    background: crimson;
-    height: 80px;
+    background: #F0E1B9FF;
+    height: 100px;
     display: flex;
-    justify-content: center;
+    /*justify-content: center;*/ /*was causing problem*/
     align-items: center;
     font-size: 1.2rem;
 }
@@ -31,19 +31,22 @@
 }
 
 .nav-links {
-    color: white;
+    color: #990011FF; /* button font color*/
+    font-size: 1.5rem;
+    font-weight: 500;
+    text-shadow: 0.5px 0.5px #990011FF;
     text-decoration: none;
     padding: 0.5rem 1rem;
 }
 
 .nav-links:hover {
-    background-color: rgba(255, 255, 255, 0.1);
+    background-color: #F3DB74FF;
     border-radius: 4px;
     transition: all 0.2s ease-out;
 }
 
 .fa-bars {
-    color: #fff;
+    color: #990011FF;
 }
 
 .nav-links-mobile {
@@ -59,7 +62,7 @@
         position: relative;
     }
 
-    .nav-menu {
+    .nav-menu { /* logo to be flashed left */
         display: flex;
         flex-direction: column;
         width: 100%;
@@ -72,22 +75,25 @@
     }
 
     .nav-menu.active {
-        background: #6668f4;
+        background :rgba(0,0,0,0.7); /*navebar side*/
+        background-size: 100% 100%;
+        background-attachment: fixed;
         left: 0;
         opacity: 1;
         transition: all 0.5s ease;
         z-index: 1;
+        margin-top: 20px;
     }
 
     .nav-links {
-        text-align: center;
+        text-align: center;/*inside slider items*/
         padding: 2rem;
         width: 100%;
         display: table;
     }
 
     .nav-links:hover {
-        background-color: #7577fa;
+        background-color: rgba(0,0,0,0.5); /*active button on mobile*/
         border-radius: 0;
     }
 
@@ -109,13 +115,13 @@
     }
 
     .fa-times {
-        color: #fff;
+        color: #990011FF; /*cross button color*/
         font-size: 2rem;
     }
 
     .nav-links-mobile {
         display: block;
-        text-align: center;
+        text-align: center; /*whatsapp button*/
         padding: 1.5rem;
         margin: 2rem auto;
         border-radius: 4px;
@@ -126,10 +132,10 @@
         font-size: 1.5rem;
     }
 
-    .nav-links-mobile:hover {
+    .nav-links-mobile:hover { /*not workong*/
         background: #fff;
         color: #6568F4;
-        transition: 250ms;
+        transition: 150ms;
     }
 
     Button {

@@ -1,62 +1,59 @@
 import React from 'react';
-import Paper from '@material-ui/core/Paper';
-import { makeStyles } from '@material-ui/core/styles';
-import Grid from '@material-ui/core/Grid';
-import Avatar from '@material-ui/core/Avatar';
-import Typography from '@material-ui/core/Typography';
-
-const useStyles = makeStyles((theme) => ({
-  root: {
-    flexGrow: 1,
-    overflow: 'hidden',
-    padding: theme.spacing(0, 3),
-  },
-  paper: {
-    maxWidth: 400,
-    margin: `${theme.spacing(1)}px auto`,
-    padding: theme.spacing(2),
-  },
-}));
-
-const message3 = `Great Support `;
-const message2 = `Amazing Teachers`;
-const message1 = `Online Courses`;
+import "./PointGrid.css";
 
 export default function PointGrid() {
-  const classes = useStyles();
 
   return (
-    <div className={classes.root}>
-    <Paper className={classes.paper}>
-        <Grid container wrap="nowrap" spacing={2}>
-          <Grid item>
-            <Avatar>O</Avatar>
-          </Grid>
-          <Grid item xs>
-            <Typography>{message1}</Typography>
-          </Grid>
-        </Grid>
-      </Paper>
-      <Paper className={classes.paper}>
-        <Grid container wrap="nowrap" spacing={2}>
-          <Grid item>
-            <Avatar>A</Avatar>
-          </Grid>
-          <Grid item xs>
-            <Typography>{message2}</Typography>
-          </Grid>
-        </Grid>
-      </Paper>
-      <Paper className={classes.paper}>
-        <Grid container wrap="nowrap" spacing={2}>
-          <Grid item>
-            <Avatar>G</Avatar>
-          </Grid>
-          <Grid item xs>
-            <Typography>{message3}</Typography>
-          </Grid>
-        </Grid>
-      </Paper>
+    <div>
+    <div class="bg-light py-5 service-5">
+    <div class="container">
+        
+        <div class="row"> 
+            
+            <div class="col-md-4 wrap-service5-box">
+                <div class="card card-shadow border-0 mb-4">
+                    <div class="card-body d-flex">
+                        <div class="mr-4 mb-2 text-success-gradiant icon-size">O</div>
+                        <div class="">
+                            <h6 class="font-weight-medium"><a href="javascript:void(0)" class="linking">Online Classes</a></h6>
+                            <p class="mt-3">You can relay on our amazing features list and also our services.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="col-md-4 wrap-service5-box">
+                <div class="card card-shadow border-0 mb-4">
+                    <div class="card-body d-flex">
+                        <div class="mr-4 mb-2 text-success-gradiant icon-size">F</div>
+                        <div class="">
+                            <h6 class="font-weight-medium"><a href="javascript:void(0)" class="linking">Good Faculties </a></h6>
+                            <p class="mt-3">You can relay on our amazing features list and also our customer services.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="col-md-4 wrap-service5-box">
+                <div class="card card-shadow border-0 mb-4">
+                    <div class="card-body d-flex">
+                        <div class="mr-4 mb-2 text-success-gradiant icon-size">C</div>
+                        <div class="">
+                            <h6 class="font-weight-medium"><a href="javascript:void(0)" class="linking"> Complete Course </a></h6>
+                            <p class="mt-3">You can relay on our amazing features list and also our customer services.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            
+						{/*<div class="col-md-12 mt-3 text-center">
+                <a class="btn btn-success-gradiant btn-md border-0 text-white"><span>View Details</span></a>
+            </div>*/}
+        </div>
     </div>
+</div>
+
+</div>
   );
 }

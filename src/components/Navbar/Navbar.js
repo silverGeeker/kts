@@ -17,8 +17,8 @@ class Navbar extends Component {
             <nav className="NavbarItems">
                 
            
-          <img className=" ml-2" src={gil} alt="" style={{width:100, height:100}} />
-          <h3 style={{color:'white' }} >Gravity Institute</h3>
+          <img className="ml-2" src={gil} alt="" style={{width:200, height:200, marginTop:40 }} />
+          <h2 style={{ color:'#990011FF' }} >Gravity Institute</h2>
         
                 
                 <div className="menu-icon" onClick={this.handleClick}>

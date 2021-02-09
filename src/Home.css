@@ -1,7 +1,8 @@
 .bgimg2{
-  background-image:url('resources/home.jpg');
+  background-image:url('resources/home2.jpg');
   background-size: 100% 100%;
   background-attachment: fixed;
+  height: 500px;
   /*width: 1529px;
   height: 670px;
   margin-top: -9px;*/
@@ -14,12 +15,12 @@ box-sizing: border-box;
 .hdh{
 font-size: 25px;
 font-weight: bold;
-color: crimson;
+color: white;
 padding-top: 3.8in;
 }
 
 .hdh2{
-color: crimson;
+color: white;
 font-size: 50px;
 margin-top: -0.7cm;
 }

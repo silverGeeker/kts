@@ -2,7 +2,7 @@ import styled from 'styled-components';
 
 export const Container = styled.div`
   padding: 80px 60px;
-  background: crimson;
+  background: #F0E1B9FF;
 
   @media (max-width: 1000px) {
     padding: 70px 30px;
@@ -36,13 +36,13 @@ export const Row = styled.div`
 `;
 
 export const Link = styled.a`
-  color: #fff;
+  color: #990011FF;
   margin-bottom: 20px;
   font-size: 18px;
   text-decoration: none;
 
   &:hover {
-      color: #ff9c00;
+      color: #A59C94FF;
       transition: 200ms ease-in;
   }
 `;
